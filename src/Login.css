@@ -5,18 +5,13 @@
 }
 body{
     margin: 0;
-    /*background: url(../img/hero-burst.svg) no-repeat center center fixed ;*/
-    background: linear-gradient(#F037A5 -60%, #FAE62D 140%);
-    background-size: cover;
     font-size: 85%;
     overflow-x: hidden;
 }
 
 .wrap{
 
-    background: #F037A5;  
-    background: linear-gradient(#F037A5 -60%, #FAE62D 140%);
-    /* background: url(../img/hero-burst.svg) no-repeat center center ; */
+    background-image: linear-gradient(to right top, #2d46b9, #007be2, #00a2d3, #00c19e, #64d862);
     box-sizing: border-box;
 }
 
@@ -66,8 +61,11 @@ nav ul li{
 
 }
 
+span a{
+    color:#2940a8;
+}
  a {
-    color: whitesmoke !important;
+    color: whitesmoke;
     text-decoration: none !important;
     font-size: 100%;
     font-weight: 700;
@@ -97,10 +95,13 @@ input{
 }
 
 section{
-    color: white;
+    color: #64d862;
     margin: 0 auto;
 }
 
+section h4{
+    color: #64d562;
+}
 article{
     margin: 0 auto;
     padding: 20rem 0 12rem 0;
