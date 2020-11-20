@@ -16,15 +16,15 @@ const scopes = [
 export const getTokenFromURL = () => {
     return window.location.hash
     .substring(1)
-    .split('&')
+    .split("&")
     .reduce((initial, item) => {
-        let parts =  item.split('=')
-        initial[parts[0]] = decodeURIComponent(parts[1])
-        
-        return initial;
+      var parts = item.split("=");
+      initial[parts[0]] = decodeURIComponent(parts[1]);
 
+      return initial;
     }, {});
-}
+};
+
 export const loginUrl = `${authEndpoint}?client_id=${clinetId}&redirect_uri=${redirect_Uri}&scope=${scopes.join("%20")}&response_type=token&show_dialog=true`;
  
 
