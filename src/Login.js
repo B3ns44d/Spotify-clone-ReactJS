@@ -10,6 +10,7 @@ function Login() {
         alt=""
       />
       <a href={loginUrl}>LOGIN TO SPOTIFY</a>
+      <p className="appissues">If you encounter any issues with the app please <a href="https://www.linkedin.com/in/b3ns44d/">contact</a> me to fix it I will be grateful</p>
     </div>
   );
 }
